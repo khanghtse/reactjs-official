@@ -1,0 +1,28 @@
+.navClass{
+  display: flex;
+}
+li{
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 50px;
+}
+li:hover{
+  background-color: rgb(187, 187, 97);
+}
+.active{
+  color: white;
+  text-decoration: none;
+}
+.navBoard{
+  background-color: rgba(31, 17, 17, 0.879);
+}
+.footer{
+  background-color: rgb(187, 187, 97);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+footer{
+  padding-top: 30px;
+}
