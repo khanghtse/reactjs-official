@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-export default class Navigation extends Component {
-    render(){
+export default function Navigation() {
+    
         return (
             <div className='navBoard'>
                 <nav>
@@ -13,5 +13,5 @@ export default class Navigation extends Component {
                 </nav>
             </div>
         )
-    }
+    
 }

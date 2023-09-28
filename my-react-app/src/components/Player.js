@@ -1,8 +1,6 @@
 import React, {Component} from "react";
 import { players } from "../shared/ListOfPlayers";
-export default class Player extends Component {
-  render() {
-
+export default function Player() {
     return (
       <div className='container'>
         <div className="row">
@@ -19,5 +17,5 @@ export default class Player extends Component {
         </div>
       </div>
     )
-  }
+  
 }
