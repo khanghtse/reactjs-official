@@ -12,7 +12,7 @@ export default class Player extends Component {
               <img src={player.img} />
               <h3>{player.name}</h3>
               <p className='title'>{player.club}</p>
-              <p><button className="">Detail</button></p>
+              <p><button className="btn btn-primary">Detail</button></p>
             </div>
           </div>
         ))}
