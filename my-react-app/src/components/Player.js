@@ -12,8 +12,8 @@ export default function Player() {
               <img src={player.img} />
               <h3>{player.name}</h3>
               <p className='title'>{player.club}</p>
-              <p><button onClick={() =>{setPlayer(player)}} className="btn btn-primary">
-                <a href="#popup1" id="openPopUp">Detail</a>
+              <p><button onClick={() =>{setPlayer(player)}}>
+                <a href="#popup1" id="openPopUp" className="btn btn-primary">Detail</a>
                 </button></p>
             </div>
           </div>

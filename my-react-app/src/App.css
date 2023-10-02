@@ -72,4 +72,9 @@ footer{
   max-height: 30%;
   overflow: auto;
 }
+#openPopUp{
+  text-decoration: none;
+  color: white;
+}
+
 
